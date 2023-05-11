@@ -7,7 +7,7 @@
 jQuery(document).ready(
     function ($) {
 
-        //On Cart Page
+        // On Cart Page
         $('input[name="cart[d081f471eab6ebf39af7b786b9dd71fe][convert_to_sub]"][value="0"]').parent().parent().remove();
         $('input[name="cart[d081f471eab6ebf39af7b786b9dd71fe][convert_to_sub]"][value="1_month"]').prop("checked", true);
 
@@ -29,7 +29,16 @@ jQuery(document).ready(
         $('input[name="cart[91695e946cfba1896f8837f46fceab15][convert_to_sub]"][value="0"]').prop("checked", true);
         $('input[name="cart[91695e946cfba1896f8837f46fceab15][convert_to_sub]"][value="0"]').hide();
 
+        $('input[name="cart[6bc67681b42b5b53b1ef02a64f23ee8e][convert_to_sub]"][value="0"]').parent().parent().css('padding-left', '17px');
+        $('input[name="cart[6bc67681b42b5b53b1ef02a64f23ee8e][convert_to_sub]"][value="1_month"]').parent().parent().remove();
+        $('input[name="cart[6bc67681b42b5b53b1ef02a64f23ee8e][convert_to_sub]"][value="3_month"]').parent().parent().remove();
+        $('input[name="cart[6bc67681b42b5b53b1ef02a64f23ee8e][convert_to_sub]"][value="0"]').prop("checked", true);
+
+        $('input[name="cart[6bc67681b42b5b53b1ef02a64f23ee8e][convert_to_sub]"][value="0"]').hide();
+
         //On Shop Page
+        $('div.single_variation_wrap button[type="submit"]').text("Add to cart");
+
         $('.woovr-variation').click(function () {
             $.fn.getSelectedRadio(this);
         });
@@ -76,4 +85,3 @@ jQuery(document).ready(
 
     }
 );
-

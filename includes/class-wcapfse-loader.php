@@ -42,3 +42,5 @@ if ( ! class_exists( 'WCAPFSE_Loader' ) ) {
 
 	new WCAPFSE_Loader();
 }
+
+

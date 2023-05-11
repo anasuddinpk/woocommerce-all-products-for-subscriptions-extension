@@ -4,7 +4,7 @@
  * Plugin Name: WooCommerce All Products For Subscriptions Extension
  * Plugin URI: https://github.com/anasuddinpk/woocommerce-all-products-for-subscriptions-extension
  * Description: Made for customizing the WooCommerce Subscription's extension: WooCommerce All Products for Subscriptions.
- * Version: 1.0.0.0
+ * Version: 1.0.0.1
  * Author: Anas Uddin
  * Author URI: https://www.linkedin.com/in/anasuddinpk/
  * Text Domain: woocommerce-all-products-for-subscriptions-extension
